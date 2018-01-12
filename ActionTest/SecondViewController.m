@@ -91,9 +91,10 @@ typedef void(^TestBlock)(int);
 //    testblock(3);
 //     log 结果为24
     
-    NSLog(@"%@",mArrayCount);
+    NSLog(@"%p",mArrayCount);
     
     int multiplier = 7;
+    NSLog(@"-----------multiplier = %p",multiplier);
     int *p = &multiplier;// 利用指针p存储a的地址
     
     TestBlock testblock = ^(int num)
@@ -101,6 +102,8 @@ typedef void(^TestBlock)(int);
         *p = *p +1;// 通过a的地址设置a的值
         
         NSLog(@"-----*p = %zd-- num = %zd - all = %zd",*p,num,*p * num);
+        NSLog(@"-----------multiplier = %p",*p);
+
     };
     
     testblock(3);

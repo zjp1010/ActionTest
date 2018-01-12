@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8B44DC02007AA4E0027D7B7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B44DBF2007AA4E0027D7B7 /* ThirdViewController.m */; };
 		D8D2A83D1FDC317000ED4F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A83C1FDC317000ED4F67 /* main.m */; };
 		D8D2A8401FDC317000ED4F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A83F1FDC317000ED4F67 /* AppDelegate.m */; };
 		D8D2A8431FDC317000ED4F67 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A8421FDC317000ED4F67 /* FirstViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8B44DBE2007AA4E0027D7B7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D8B44DBF2007AA4E0027D7B7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		D8D2A8381FDC317000ED4F67 /* ActionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D2A83C1FDC317000ED4F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8D2A83E1FDC317000ED4F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				D8D2A8421FDC317000ED4F67 /* FirstViewController.m */,
 				D8D2A8441FDC317000ED4F67 /* SecondViewController.h */,
 				D8D2A8451FDC317000ED4F67 /* SecondViewController.m */,
+				D8B44DBE2007AA4E0027D7B7 /* ThirdViewController.h */,
+				D8B44DBF2007AA4E0027D7B7 /* ThirdViewController.m */,
 				D8D2A8471FDC317000ED4F67 /* Main.storyboard */,
 				D8D2A84A1FDC317000ED4F67 /* Assets.xcassets */,
 				D8D2A84C1FDC317000ED4F67 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D2A8461FDC317000ED4F67 /* SecondViewController.m in Sources */,
+				D8B44DC02007AA4E0027D7B7 /* ThirdViewController.m in Sources */,
 				D8D2A8401FDC317000ED4F67 /* AppDelegate.m in Sources */,
 				D8D2A8431FDC317000ED4F67 /* FirstViewController.m in Sources */,
 				D8D2A83D1FDC317000ED4F67 /* main.m in Sources */,
@@ -313,6 +319,7 @@
 				D8D2A8541FDC317000ED4F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
